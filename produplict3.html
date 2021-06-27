@@ -1,0 +1,140 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset ="UTF">
+<meta name =viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>BASANT FITNESS</title>
+</head>
+<style>
+body{
+color:white;
+margin:0px;
+padding:0px;
+background:url('image/def.jpg');
+}
+.left{
+display:inline-block;
+/*border:2px solid red;*/
+position:absolute;
+left:15px;
+top:20px;
+}
+.left img{
+width:90px
+
+}
+.left div{
+text-align:centre;
+color: #3F51B5;
+font-size:20px;
+}
+.mid{
+display:black;
+width:33%;
+margin:20px auto;
+/*border:2px solid green;*/
+}
+.right{
+position:absolute;
+right:34px;
+top:20px;
+/*border:2px solid yellow;*/
+}
+.navbar{
+display:inline-block;
+}
+.navbar li{
+
+display:inline-block;
+}
+.navbar li a{
+text-decoration:none;
+color:blue;
+padding:10px 10px;
+}
+
+.navbar li a:hover,.navbar li a:active{
+text-decoration:underline;
+color:red;
+}
+.btn{
+margin:0px 9px;
+background-color:black;
+color:white;
+padding:4px 14px;
+border:2px solid gray;
+border-radius:10px;
+corsor:pointer;
+}
+.btn:hover{
+background-color:red;
+}
+.container{
+border:2px solid green;
+margin:90px 60px;
+padding:2px 2px;
+width:20%;
+height:330px;
+border-radius:20px;
+font-size:25px;
+text-align:centre;
+}
+.form-group input{
+text-align:center;
+display:block;
+width:240px;
+padding:4px;
+border-radus:8px;
+margin:5px;
+}
+.container h1{
+text-align:centre;
+}
+.container button{
+display:block;
+width:30%;
+}
+</style>
+<body>
+<head class="header">
+<div class="left">
+
+<img src="image/ghi.png" alt=" ">
+<div> Basant fitness</div>
+</div>
+<!-- mid box for nevigation-->
+<div class="mid">
+<ul class="navbar">
+<li><a href="#">HOME</a></li>
+<li><a href="#">About US</a></li>
+<li><a href="#">Fitness Calculator</a></li>
+<li><a href="#">Contact us</a></li>
+
+</div>
+<!--right box for buttons-->
+<div class="right">
+<button class="btn">Call us</button>
+<button class ="btn">Email US</button>
+</div>
+</header>
+<div class="container">
+<h2>Join the Basu fitness now</h2>
+<form action="noaction.php">
+<div class ="form-group">
+<input type="text" name=" " placeholder=" Enter your Name ">
+</div>
+<div class ="form-group">
+<input type="text" name=" " placeholder=" Enter your Age ">
+</div>
+<div class ="form-group">
+<input type="text" name=" " placeholder=" Enter your Gender ">
+</div>
+<div class ="form-group">
+<input type="text" name=" " placeholder=" Enter your Locality ">
+</div>
+<button class ="btn"> Submit</button>
+</form>
+</div>
+</body>
+</html>
